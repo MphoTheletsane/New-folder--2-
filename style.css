@@ -21,4 +21,16 @@ body {
 font-family: 'Courier New', Courier, monospace;
 }
 
+main{
+    background-color: black;
+    color: beige;
+    height: 100vh
+}
+section {
+    background-color: antiquewhite;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
     
