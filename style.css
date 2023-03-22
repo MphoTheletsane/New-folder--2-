@@ -20,3 +20,8 @@ body {
     background-color: beige;
 font-family: 'Courier New', Courier, monospace;
 }
+image {
+    margin: 0%;
+    box-sizing: border-box;
+    
+}
