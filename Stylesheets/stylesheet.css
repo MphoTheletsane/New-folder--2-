@@ -28,15 +28,13 @@ body {
     background-color: beige;
 font-family: 'Courier New', Courier, monospace;
 font-size: larger;
-* {
-margin: 0px;
-padding: 0px;
-box-sizing: border-box;
+
+
 }
 
 .image {
-      width: 100%
-      margin-top: 300;
+      width: 100%;
+      margin-top: 300px;
 }
 img {
 height: 500;
