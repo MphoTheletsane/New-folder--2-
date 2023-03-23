@@ -5,21 +5,28 @@
 }
 
 .image{
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: blueviolet;
-}
-
-.image img{
-    height: 300px;
     width: 300px;
-    border-radius: 50%;
+    margin-top: 5px;
+    
 }
 
+img{
+    height: 500vh;
+    width: 350;
+    margin: auto;
+    border-radius: 50%; 
+    border: 10px salmon; 
+}
 
+h1{
+    padding: 0px;
+    margin: 0px;
+    font-size: x-large;
+    font: bolder;
+    color: black;
+    background-color: aliceblue;
+    
+}
 
     
 
