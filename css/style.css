@@ -23,6 +23,7 @@ body {
 #back-to-top > button {
     text-decoration: none;
     color: whitesmoke;
+    
 }
 #back-to-top:hover > button {
     text-decoration: none;
