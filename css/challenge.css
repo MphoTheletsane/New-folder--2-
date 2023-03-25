@@ -4,8 +4,9 @@
 */
 #back-to-top {
     position: fixed;
-    right: 0px;
-    top: 640px;
+    right: 80px;
+    bottom: 80px;
+    
     
 
 }
