@@ -131,37 +131,41 @@
             <button>Facebook</button>
             <button>Glassdoor</button>
         </p>
-        <div class="container">
-            <h3>Contact Us</h3>
+        <br>
+        <h2>Contact Us</h2>
+        
             <Form action="https://formsubmit.co/fe09449df5c82b6e88e0809753b0d023" method="post">
-        <label for="nameandsurname" class="form-label">Name and Surname</label>
-        <input type="text" class="form-control" id="fullname"name="fullname" required>
+        <label for="name:">Name:</label>
+        <input type="text" name="name" required>
+        <p><label for="email:">Email:</label>
+        <input type="email" name="Email" required></p>
+        <p><label for="phone:">Phone:</label>
+       <input type="number" name="Phone:" required> </p>
+        <p><label for="feedbackStatement">Tell us who are you?</label></p>
 
-        <br>
+        <select name="_subject" id="subject">
+            <option value="Client">Client</option required>
+            <option value="Job Seeker">Job Seeker</option>
+            <option value="Part of our Team">Part of our Team</option>
+            <option value="Other">Other</option>
+            </select>
+          <p> <label for="message:">Message:</label></p>
+            <textarea name="message:" cols="50" rows="7" placeholder="(Please help me understand how I can help you...)"></textarea>
+            <p> <label for="feedbackStatement">Rate our website:</label></p>
+            <p>
+                <input type="radio" name="rating" value="Good" required>
+                <label for="rating">Good</label>
+                <input type="radio" name="rating" value="Fair">
+                <label for="rating">Fair</label>
+                <input type="radio" name="rating" value="Poor">
+                <label for="rating">Poor</label>
+            </p>
 
-        <label for="emailaddress" class="form-label">Email Address</label>
-        <input type="text" class="form-control" id="emailaddress" required>
-
-        <br>
-
-        <label for="contactnumber" class="form-label">Contact Number</label>
-        <input type="number" class="form-control" id="contactnumber"required>
-
-        <br>
-
-        <label for="message" class="form-label">Message</label>
-        <textarea class="form-control" id="message" name="message here please (optional)" cols="30" role="10"optional></textarea>
-
-        <br>
-
-        <button type="submit" class="btn btn primary">Submit</button>
-
-            </div>
+            <p> <button type="submit">Submit</button> </p>
+            </Form>
+            
             </footer>
             
-        
-
-
 </body>
 
 </html>
