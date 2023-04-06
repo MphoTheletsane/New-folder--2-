@@ -19,8 +19,8 @@
     <header id="top">
         <div>
             <picture>
-                <source media="max-width: 650px" srcset="./images/profile-picture-small.jpg">
-                <source media="max-width: 1000px" srcset="./images/profile-picture-medium.jpg">
+                <source media="(max-width: 650px)" srcset="./images/profile-picture-small.jpg">
+                <source media="(max-width: 1000p)x" srcset="./images/profile-picture-medium.jpg">
             <img id="header-image" src="./images/profile-picture.jpg" alt="header-image">
         </picture>
         </div>
@@ -32,7 +32,21 @@
                 background-size: 100%;
 
             }
+            picture {
+                border-radius: 10%;
+                width: 300px;
+                height: 225px;
+                position: relative;
+                top: 50px;
+            }
+
+            
         </style>
+        
+            
+        
+
+
         <div class="header-content">
             <h1>Mpho Theletsane</h1>
             <p>
@@ -178,6 +192,7 @@
             </Form>
             
             </footer>
+        
             
 </body>
 
